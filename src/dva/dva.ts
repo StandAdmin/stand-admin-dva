@@ -54,7 +54,7 @@ export function createGlobalApp(props: IAppOptions = {}) {
     console.error(
       'DvaContainer is singleton, multiple DvaContainer will cause problems!!',
     );
-    return globalApp;
+    // return globalApp;
   }
 
   const { history: origHistory = 'browser' } = props;
