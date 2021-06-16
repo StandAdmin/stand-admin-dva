@@ -51,7 +51,9 @@ function buildHistroy(origHistory: string | History): History {
 
 export function createGlobalApp(props: IAppOptions = {}) {
   if (globalApp) {
-    console.warn('Do not create muliple apps!!');
+    console.error(
+      'DvaContainer is singleton, multiple DvaContainer will cause problems!!',
+    );
     return globalApp;
   }
 
@@ -98,9 +100,9 @@ export interface IDvaContainerProps {
 
 export const DvaContainer = (props: IDvaContainerProps) => {
   const [app] = useState(() => {
-    if (globalApp) {
-      throw new Error('DvaContainer is singleton!!');
-    }
+    // if (globalApp) {
+    //   throw new Error('DvaContainer is singleton!!');
+    // }
     return createGlobalApp(props.appOptions);
   });
 
