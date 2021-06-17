@@ -79,7 +79,7 @@ function clearDvaApp(app: any) {
   }
 
   if (app !== globalApp) {
-    throw new Error('Seemed muliple app exists!');
+    console.error('Seemed muliple app exists!');
   }
 
   clearApp(globalApp);
