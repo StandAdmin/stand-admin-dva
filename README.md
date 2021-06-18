@@ -21,6 +21,6 @@ const App = props => {
 
 Same with [stand-admin-antdpro](https://www.npmjs.com/package/stand-admin-antdpro), just replace `stand-admin-antdpro` with `stand-admin-dva`.
 
-[Antd Pro Demos](https://github.com/rooseve/stand-admin-antdpro-demo)
+[Antd Pro Demos](https://github.com/StandAdmin/stand-admin-antdpro-demo)
 
 Just download and play!

@@ -59,7 +59,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rooseve/stand-admin-dva.git"
+    "url": "git+https://github.com/StandAdmin/stand-admin-dva.git"
   },
   "keywords": [
     "antd",
@@ -69,7 +69,7 @@
   "author": "Andrew Zhang",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rooseve/stand-admin-dva/issues"
+    "url": "https://github.com/StandAdmin/stand-admin-dva/issues"
   },
-  "homepage": "https://github.com/rooseve/stand-admin-dva#readme"
+  "homepage": "https://github.com/StandAdmin/stand-admin-dva#readme"
 }
