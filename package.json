@@ -1,6 +1,6 @@
 {
   "name": "stand-admin-dva",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "StandAdmin with Dva",
   "scripts": {
     "start": "dumi dev",
@@ -36,8 +36,8 @@
   },
   "peerDependencies": {
     "antd": "^4.9.2",
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react": "^16.8 || ^17",
+    "react-dom": "^16.8 || ^17"
   },
   "devDependencies": {
     "@types/react": "^16.8.4",
