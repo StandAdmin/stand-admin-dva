@@ -51,7 +51,7 @@ function buildHistroy(origHistory: string | History): History {
 
 export function createGlobalApp(props: IAppOptions = {}) {
   if (globalApp) {
-    console.error(
+    console.warn(
       'DvaContainer is singleton, multiple DvaContainer will cause problems!!',
     );
     // return globalApp;
@@ -79,15 +79,15 @@ function clearDvaApp(app: any) {
   }
 
   if (app !== globalApp) {
-    console.error('Seemed muliple app exists!');
+    console.warn('Seemed muliple dva app exists!');
   }
 
-  clearApp(globalApp);
+  clearApp(app);
 
   try {
     // 释放 app，for gc
     // immer 场景 app 是 read-only 的，这里 try catch 一下
-    globalApp = null;
+    app = null;
   } catch (e) {
     console.error(e);
   }
