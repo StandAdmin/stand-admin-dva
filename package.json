@@ -1,6 +1,6 @@
 {
   "name": "stand-admin-dva",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "StandAdmin with Dva",
   "scripts": {
     "start": "dumi dev",
